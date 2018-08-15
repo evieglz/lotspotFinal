@@ -1,0 +1,183 @@
+#container {
+    z-index: -1;
+    height: 100vh;
+    text-align: center;
+    margin-right: -25px;
+
+}
+
+#austin {
+    background:rgba(0,0,0,0.3);
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+.search-page {
+    z-index: 1;
+    top: 30%;
+    text-align:center;
+    margin-top: -650px;
+}
+
+
+#caption {
+    bottom: auto;
+    text-align: center;
+    color:white;
+}
+
+#search.input {
+    opacity: 0.5;
+}
+
+.form-control {
+    opacity:0.6;
+    text-align: center;
+    color:white;
+    
+}
+
+    
+.btn {
+    opacity:0.8;
+
+}
+
+#caption {
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    top: 30%;
+    z-index: 1;
+}
+
+.btn {
+    letter-spacing: 3px;
+
+}
+
+
+ .iframe-container{
+    position: relative;
+    height: 100vh;
+    width: 75vw;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    border-left: white;
+    border-style: solid;
+    overflow:auto;
+  clear: both;
+    
+}
+
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+   
+} 
+
+
+.panel.panel-default {
+    background: black;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    border-color: black;
+    
+}
+
+/* GOOGLE MAP SEARCH CSS 
+Optional: Makes the sample page fill the window. */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+#target {
+    width: 345px;
+}

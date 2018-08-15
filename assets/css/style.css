@@ -1,0 +1,56 @@
+
+body {
+    
+    background: linear-gradient(
+        rgba(20,20,20, .4), 
+        rgba(20,20,20, .4)),
+        url("../images/wheel.jpg");;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+  
+}
+
+
+.container {
+    text-align: center;
+
+}
+#phrase {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+#lotspot {
+    font-family: 'Cabin Sketch', cursive;
+    color:white;
+    font-size: 100px;
+    margin-top: 130px;
+    
+}
+
+.btn-sm {
+    font-family: 'Barlow Condensed', sans-serif;
+    color:grey;
+    background-color: white;
+    margin-top: -15px;
+    font-size: 3px;
+    letter-spacing: 2px;
+    opacity: 0.55;
+    font-weight: bolder;
+
+}
+
+#statement {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    margin-top: 130px;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    font-size: 22px;
+}
